@@ -456,4 +456,72 @@ footer .items .styles:first-child,
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 1180px) {
+  .item-scroll .con-scroll {
+    width: 250%;
+  }
+}
+@media (max-width: 1024px) {
+  header .logo {
+    width: 20%;
+  }
+  header .nav {
+    width: 20%;
+  }
+}
+@media (max-width: 968px) {
+  .item-scroll .con-scroll {
+    width: 300%;
+  }
+}
+@media (max-width: 768px) {
+  header .logo {
+    width: 40%;
+  }
+  header .nav {
+    width: 40%;
+  }
+  .item-scroll .con-scroll {
+    width: 400%;
+  }
+}
+@media (max-width: 1430px) {
+  .container {
+    width: 90%;
+  }
+  .content-header-item {
+    width: 100%;
+  }
+  .content-header-item .item {
+    width: 32.5%;
+    height: 190px;
+  }
+}
+@media (max-width: 888px) {
+  .content-header-item .item {
+    width: 31.2%;
+    height: 190px;
+  }
+}
+@media (max-width: 620px) {
+  .content-header-item .item {
+    width: 49%;
+    height: 170px;
+  }
+  .banner {
+    width: 70% !important;
+  }
+}
+@media (max-width: 600px) {
+  .content-header-item .item {
+    width: 48%;
+    height: 150px;
+  }
+}
+@media (max-width: 568px) {
+  .item-scroll .con-scroll {
+    width: 600%;
+  }
 }/*# sourceMappingURL=style.css.map */
