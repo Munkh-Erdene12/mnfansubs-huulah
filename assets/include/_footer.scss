@@ -1,0 +1,41 @@
+footer,
+.mnfansubs-footer {
+  max-width: 100%;
+  height: 61px;
+  background-color: rgba(34, 34, 34, 0.8);
+  border-bottom: 1px solid #393939;
+  position: relative;
+  .items {
+    height: 100%;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    right: 0px;
+    cursor: pointer;
+    .styles {
+      width: 60px;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-right: 1px solid #393939;
+      transition: all 0.3s;
+      &:hover {
+        color: #00b3ff;
+        transition: all 0.3s;
+      }
+      &:last-child {
+        border: none;
+      }
+      &:first-child {
+        border-left: 1px solid #393939;
+      }
+    }
+  }
+}
+.mnfansubs-footer {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
